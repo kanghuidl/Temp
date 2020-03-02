@@ -27,6 +27,7 @@ case $arg in
         sudo pacman -Syu --noconfirm \
             google-chrome \
             otf-fira-code \
+            wqy-microhei \
             supervisor \
             net-tools \
             nodejs \

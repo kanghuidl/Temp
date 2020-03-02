@@ -15,7 +15,7 @@ read arg
 case $arg in
     Y|y)
         sudo pacman-mirrors -c China
-        echo -e "\n[archlinuxcn]\nServer = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch" | sudo tee -a /etc/pacman.conf
+        echo -e "\n[archlinuxcn]\nServer = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/\$arch" | sudo tee -a /etc/pacman.conf
         sudo pacman -Syu --noconfirm archlinuxcn-keyring
     ;;
 esac
